@@ -1,0 +1,41 @@
+.interface {
+    border: 1px solid #999999;
+    font: normal 20px helvetica;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border-spacing: 20px;
+    margin: auto;
+}
+
+.interface th, .interface td {
+    padding: 2px;
+}
+
+.interface input, button {
+    font: normal 20px helvetica;
+    padding: 8px;
+}
+
+input[type="submit"], button {
+    border-radius: 10px;
+}
+
+.safe {
+    background-color: lightgreen;
+}
+
+.neutral {
+    background-color: lightblue;
+}
+
+.danger {
+    background-color: pink;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
